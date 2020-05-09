@@ -454,7 +454,6 @@ Ship = function () {
     }
     if (KEY_STATUS.space) {
       if (this.delayBeforeBullet <= 0) {
-<<<<<<< HEAD
         for (var i = 0; i < this.bullets.length; i++) {
           if (!this.bullets[i].visible) {
             SFX.laser();
@@ -471,10 +470,6 @@ Ship = function () {
             break;
           }
         }
-=======
-        this.delayBeforeBullet = 10;
-        this.shoot();
->>>>>>> coins
       }
     }
 
